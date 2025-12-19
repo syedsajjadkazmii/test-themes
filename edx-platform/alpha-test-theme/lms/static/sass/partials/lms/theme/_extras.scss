@@ -1,0 +1,15 @@
+// Alpha Test Theme overrides for Open edX LMS
+
+@import 'bootstrap/scss/mixins';
+
+// Variables are auto-loaded via theme discovery mechanism
+// No need to import _variables.scss here
+
+// Import new component overrides
+@import 'buttons';
+@import 'header';
+
+// Apply base font globally
+body {
+  font-family: $font-family-base;
+}

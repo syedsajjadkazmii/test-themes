@@ -1,0 +1,32 @@
+// Header overrides for alpha Test Theme
+
+.global-nav,
+.header {
+  background: $header-bg;
+  color: $header-text-color;
+}
+
+.header .logo img,
+.global-nav .logo img {
+  height: 28px;
+  width: auto;
+}
+
+.global-nav .nav,
+.header .nav {
+  a {
+    color: $header-text-color;
+
+    &:hover,
+    &:focus {
+      color: lighten($header-text-color, 12%);
+      text-decoration: none;
+    }
+  }
+}
+
+.header a:focus,
+.global-nav a:focus {
+  outline: 2px solid $btn-brand-focus-background;
+  outline-offset: 2px;
+}

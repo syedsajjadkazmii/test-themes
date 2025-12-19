@@ -1,0 +1,19 @@
+// Primary brand color & scales
+$brand-primary: #2458E6;
+$brand-primary-300: lighten($brand-primary, 12%);
+$brand-primary-600: darken($brand-primary, 12%);
+
+// Fonts
+$font-family-base: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+$headings-font-family: $font-family-base;
+
+// Legacy LMS/Bootstrap bridge
+$primary: $brand-primary;
+$primary-300: $brand-primary-300;
+$primary-600: $brand-primary-600;
+
+// Header and global tokens
+$header-bg: $primary-600;
+$header-text-color: #fff;
+$btn-brand-focus-background: $primary-300;
+$seq-nav-link-color: $primary;

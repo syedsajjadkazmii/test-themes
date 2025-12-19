@@ -1,0 +1,35 @@
+// Button overrides for alpha Test Theme
+
+.btn,
+button,
+input[type="submit"],
+input[type="button"] {
+  font-family: $font-family-base;
+}
+
+.btn-primary {
+  background-color: $primary;
+  border-color: $primary;
+  color: #fff;
+
+  &:hover,
+  &:focus {
+    background-color: $primary-600;
+    border-color: $primary-600;
+    color: #fff;
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 0.2rem rgba($primary, 0.35);
+    background-color: $btn-brand-focus-background;
+  }
+}
+
+.btn-secondary {
+  color: $primary;
+
+  &:hover,
+  &:focus {
+    color: $primary-600;
+  }
+}
